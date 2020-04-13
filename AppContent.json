@@ -1,2 +1,91 @@
-# TemplateFlutterApp
-TemplateFlutterApp
+{
+  "appName": "SampleAppName",
+  "welcomeMessage": "hello, thanks for using our app",
+  "products": [
+    {
+      "name": "samle product",
+      "shortDes": "this is good",
+      "longDes": "product is good for health.",
+      "image": {
+        "thumbnal": "abc.jpg",
+        "images": [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg"
+        ]
+      },
+      "price": "30000",
+      "currency": "VND",
+      "quantity": "1",
+      "specifications": "kg",
+      "sizes": [
+        "5",
+        "10",
+        "15"
+      ],
+      "types": [
+        "small",
+        "normal",
+        "big"
+      ]
+    },
+    {
+      "name": "samle product",
+      "shortDes": "this is good",
+      "longDes": "product is good for health.",
+      "image": {
+        "thumbnal": "abc.jpg",
+        "images": [
+          "image1.jpg",
+          "image2.jpg",
+          "image3.jpg"
+        ]
+      },
+      "price": "30000",
+      "currency": "VND",
+      "quantity": "1",
+      "specifications": "kg",
+      "sizes": [
+        "5",
+        "10",
+        "15"
+      ],
+      "types": [
+        "small",
+        "normal",
+        "big"
+      ]
+    }
+  ],
+  "owerInfo": {
+    "address": [
+      "address1, ho chi minh city",
+      "address2, hanoi city"
+    ],
+    "phoneNumber": [
+      "1234567890",
+      "0987654321"
+    ],
+    "email": [
+      "support@gmail.com",
+      "noreply@gmail.com"
+    ],
+    "website": [
+      "abc.vn",
+      "xyz.com"
+    ],
+    "network": {
+      "facebook": "lsfc.lagnooblag",
+      "linkedIn": "meInLikend",
+      "instagram": "shopMe",
+      "line": "myshow",
+      "telegram": "0987654321",
+      "pinterest": "mypin",
+      "sms": "0987654321",
+      "twitter": "mytwit",
+      "wechat": "mywechannel",
+      "youtube": "mychannel",
+      "zalo": "zaloshopId"
+    }
+  }
+}

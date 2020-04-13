@@ -1,0 +1,113 @@
+{
+  "playstore": {
+    "presence": [
+      {
+        "lang": "VI",
+        "title": "app name",
+        "shortDes": "short des",
+        "longDes": "long des",
+        "promoteVideo": "my video url",
+        "images": {
+          "hiresIcon": "url imagae",
+          "mobileShots": [
+            "url image",
+            "url image"
+          ],
+          "tabletShots": [
+            "url image",
+            "url image"
+          ],
+          "tvShots": [
+            "url image",
+            "url image"
+          ],
+          "wearShots": [
+            "url image",
+            "url image"
+          ],
+          "feature1024x500": "url image",
+          "promo180x120": "url image",
+          "tvbanner1280x720": "url image",
+          "daydream4096x4096": "url image"
+        }
+      }
+    ],
+    "category": {
+      "appType": "application",
+      "type": "shopping",
+      "tags": [
+        "shop tag",
+        "shop app"
+      ],
+      "contentRating": {
+        "age": "18+"
+      }
+    },
+    "contact": {
+      "website": "abc.com",
+      "email": "abc@gmail.com",
+      "phoneNumber": "0987654321"
+    },
+    "publishment": {
+      "versionName": "latest version",
+      "versionCode": "1.0",
+      "buildNumber": "9999",
+      "versionDes": "this is first release of this application"
+    },
+    "privacyPolicy": "policy url",
+    "packageName": "com.mfa.sampleapp"
+  },
+  "appStore": {
+    "name": "app name",
+    "subtitle": "app sub",
+    "privacyPolicy": "policy url",
+    "bundleId": "com.mfa.sampleapp",
+    "category": {
+      "appType": "application",
+      "type": "shopping"
+    },
+    "rating": {
+      "age": "17+"
+    },
+    "price": "free",
+    "presence": [
+      {
+        "lang": "VI",
+        "promotion": "Promotional text lets you inform your App Store visitors of any current app features without requiring an updated submission. This text will appear above your description on the App Store for customers with devices running iOS 11 or later, and macOS 10.13 or later.",
+        "description": "A description of your app, detailing features and functionality. It will also be used for your Apple Watch app.",
+        "keywords": [
+          "app",
+          "tag1",
+          "shop my app"
+        ],
+        "supportUrl": "my video url",
+        "marketingUrl": "marketing url",
+        "copyRight": "mfa team @ copyright",
+        "images": {
+          "hiresIcon": "url imagae",
+          "iphone65": [
+            "url image",
+            "url image"
+          ],
+          "iphone55": [
+            "url image",
+            "url image"
+          ],
+          "ipad2ndGen129": [
+            "url image",
+            "url image"
+          ],
+          "ipad3rdGen129": [
+            "url image",
+            "url image"
+          ],
+          "appPreview": [
+            "preview1.mp4",
+            "preview2.mp4",
+            "preview3.mp4"
+          ]
+        }
+      }
+    ]
+  }
+}
