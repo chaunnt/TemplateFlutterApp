@@ -7,6 +7,21 @@ class SplashView extends StatefulWidget {
 }
 
 class _SplashViewState extends State<SplashView> {
+  Future _splash(BuildContext context) {
+    print("start count");
+    return Future.delayed(Duration(seconds: 2)).then((value) {
+      print("time out");
+      Navigator.pushNamedAndRemoveUntil(context, '/', (_) => false);
+    });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    print("Splash me");
+    _splash(this.context);
+  }
+
   @override
   Widget build(BuildContext context) {
     return FutureBuilder(
@@ -62,11 +77,5 @@ class _SplashViewState extends State<SplashView> {
         );
       },
     );
-  }
-
-  Future _splash(BuildContext context) {
-    return Future.delayed(Duration(seconds: 2)).then((value) {
-      Navigator.pushNamedAndRemoveUntil(context, '/', (_) => false);
-    });
   }
 }

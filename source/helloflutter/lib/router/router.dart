@@ -7,6 +7,7 @@ import 'package:helloflutter/views/Splash_view.dart';
 
 class Router {
   static Route<dynamic> generateRoute(RouteSettings settings) {
+    print(settings.name);
     switch (settings.name) {
       case 'splash':
         return MaterialPageRoute(builder: (_) => SplashView());

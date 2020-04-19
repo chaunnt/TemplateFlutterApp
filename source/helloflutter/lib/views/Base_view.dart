@@ -15,6 +15,23 @@ class _BaseViewState extends State<BaseView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        leading: IconButton(
+          icon: const Icon(Icons.menu),
+          tooltip: 'Show menu',
+          onPressed: () {},
+          color: Colors.amber,
+        ),
+        title: Text("Gao Viet"),
+        actions: <Widget>[
+          IconButton(
+            icon: const Icon(Icons.add_alert),
+            tooltip: 'Notification',
+            onPressed: () {},
+            color: Colors.amber,
+          ),
+        ],
+      ),
       body: IndexedStack(
         index: _currentIndex,
         children: <Widget>[
@@ -27,30 +44,6 @@ class _BaseViewState extends State<BaseView> {
             key: _contactScreen,
             onGenerateRoute: Router.generateRoute,
             initialRoute: 'contact',
-          ),
-        ],
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        currentIndex: _currentIndex,
-        onTap: (val) => _onTap(val, context),
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-        items: [
-          BottomNavigationBarItem(
-            icon: IconButton(
-              icon: new Image.asset('assets/images/Home_100x100.png'),
-              tooltip: 'Home',
-              onPressed: () {},
-            ),
-            title: Text("Home"),
-          ),
-          BottomNavigationBarItem(
-            icon: IconButton(
-              icon: new Image.asset('assets/images/Phone_100x100.png'),
-              tooltip: 'Contact',
-              onPressed: () {},
-            ),
-            title: Text("Contact"),
           ),
         ],
       ),
