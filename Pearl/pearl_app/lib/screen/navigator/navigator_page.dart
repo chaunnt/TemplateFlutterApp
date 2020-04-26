@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pearl_app/resource/strings.dart';
+import 'package:pearl_app/screen/contact/contact_page.dart';
 import 'package:pearl_app/screen/home/home_page.dart';
-import 'package:pearl_app/screen/profile/profile_page.dart';
 import 'package:pearl_app/widgets/appbar_widget.dart';
 import 'package:pearl_app/widgets/bottom_navigation.dart';
 import 'package:pearl_app/widgets/side_draw_menu.dart';
@@ -25,7 +25,7 @@ class _TabPageState extends State<TabPage> {
     super.initState();
     _widgetOptions = [
       HomeScreen(streamCurrentTab: _streamCurrentTab),
-      ProfileScreen(streamCurrentTab: _streamCurrentTab,),
+      ContactScreen(streamCurrentTab: _streamCurrentTab,),
 
     ];
   }

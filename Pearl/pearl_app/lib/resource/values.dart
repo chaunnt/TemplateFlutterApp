@@ -13,5 +13,7 @@ class ResourceImages {
 class ResourceIcons {
   static const ic_home_tab = "${ResourceDir.assetIcons}/ic_home.png";
   static const ic_contact_tab = "${ResourceDir.assetIcons}/ic_contact.png";
+  static const ic_facebook = "${ResourceDir.assetIcons}/ic_facebook.png";
+  static const ic_line = "${ResourceDir.assetIcons}/ic_line.png";
 
 }
