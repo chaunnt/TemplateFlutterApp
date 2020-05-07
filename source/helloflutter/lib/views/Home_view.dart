@@ -21,8 +21,6 @@ class _HomeViewState extends State<HomeView> {
         // Generate 100 widgets that display their index in the List.
         children: List.generate(100, (index) {
           return ClipRRect(
-            // color: Colors.white,
-            // border: Border.all(color: Colors.black12, width: 1.0),
             borderRadius: new BorderRadius.all(
               Radius.circular(20.0),
             ),

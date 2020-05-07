@@ -49,24 +49,4 @@ class _BaseViewState extends State<BaseView> {
       ),
     );
   }
-
-  void _onTap(int val, BuildContext context) {
-    if (_currentIndex == val) {
-      switch (val) {
-        case 0:
-          _homeScreen.currentState.popUntil((route) => route.isFirst);
-          break;
-        case 1:
-          _contactScreen.currentState.popUntil((route) => route.isFirst);
-          break;
-        default:
-      }
-    } else {
-      if (mounted) {
-        setState(() {
-          _currentIndex = val;
-        });
-      }
-    }
-  }
 }
